@@ -2,7 +2,7 @@
 
 **An open critic for the Claude Skills catalog.** Built by [RampStack](https://rampstack.co).
 
-Basano reviews a finished build against a standard and reports what holds and what fails. It reads the [claude-skills](https://github.com/rampstackco/claude-skills) catalog, selects the verification skills a review needs, runs the review, and returns a structured verdict: the failures, prioritized by severity, and the parts that hold, so the verdict is trustworthy in both directions.
+Basano is an open critic for the Claude Skills catalog, built by RampStack. It reviews a finished build against a standard and reports what holds and what fails. It reads the [claude-skills](https://github.com/rampstackco/claude-skills) catalog, selects the verification skills a review needs, runs the review, and returns a structured verdict: the failures, prioritized by severity, and the parts that hold, so the verdict is trustworthy in both directions.
 
 The name comes from the Greek basanos, the touchstone: the stone against which gold was rubbed to test whether it was genuine. That is what Basano does to a build.
 
