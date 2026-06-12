@@ -13,7 +13,7 @@ This repository documents what Basano does and shows worked examples. The critic
 ## What it does
 
 - **Scopes the review.** Turns a build and a standard into the areas worth checking: SEO, accessibility, code quality, performance, content, and others as the build calls for.
-- **Selects the verification skills.** For each area, it picks the relevant audit and review skills from the catalog, the same selection the catalog uses elsewhere, so the review maps to skills that actually check that dimension.
+- **Selects the verification skills.** For each area, it picks the relevant audit and review skills from the catalog, honoring each skill's own stated boundaries, so the review maps to skills that actually check that dimension.
 - **Reports a verdict.** It synthesizes findings into a structured result: what fails, ordered by severity with the reason it matters, and what holds. Not a raw issue dump, a prioritized verdict.
 
 ---
@@ -36,6 +36,13 @@ Basano reports; it does not fix. The fix is the human's call.
 
 - [Landing page passes production-ready](examples/basano-landing-page-pass.md) - a clean pass, with the holds surfaced rather than assumed.
 - [Landing page fails on accessibility](examples/basano-landing-page-fail.md) - a high-severity failure leads the verdict, a low-severity one follows in order, two areas hold, and one area is honestly marked as not confidently scoped.
+
+---
+
+## Artifacts and schemas
+
+- [`examples/`](examples/) holds worked examples of the verdicts Basano produces.
+- [`schemas/`](schemas/) holds the shape of those public artifacts as annotated types, for building against the engine's outputs. The types carry only what the published artifacts already show.
 
 ---
 

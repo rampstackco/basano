@@ -37,8 +37,8 @@ Holds (5):
 
 ## What Basano did, and did not, do
 
-- Scoped the production-ready standard into the area set: SEO, accessibility, code, performance, content. The expansion is deterministic and legible, not a hidden model call.
-- Selected verification skills per area. The same selection used for build planning runs the same way for review scoping.
+- Scoped the production-ready standard into the area set: SEO, accessibility, code, performance, content. The scoping is deterministic and legible, not a hidden model call.
+- Selected verification skills per area. Each area's selection honors the catalog's own stated skill boundaries, so the review maps to skills that actually check that dimension.
 - Surfaced the holds, not just the absence of fails. A critic that only lists failures is as useless as one that only flatters; passes is trustworthy because the holds are visible too.
 - Reported the verdict and stopped. Basano does not fix; the fix is the human's call, or a follow-on build.
 
