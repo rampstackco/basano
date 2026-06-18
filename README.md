@@ -39,6 +39,33 @@ Basano reports; it does not fix. The fix is the human's call.
 
 ---
 
+## Getting started
+
+1. Read the framework above and the honest-verdict rule it sets out: failures are reported with severity, and what cannot be assessed is marked not assessable rather than counted as a pass.
+2. Pick the worked example that matches your review from [`examples/`](examples/): the clean pass, the accessibility-led fail, or the AEO and GEO verdict.
+3. Run the operated critic at [rampstack.co/basano](https://rampstack.co/basano) against your build and standard, and read the verdict it returns.
+4. Read or build against the verdict. Act on the fails in severity order, and treat the not-assessable items as open questions rather than passes. The fix is yours.
+
+---
+
+## Quick examples
+
+A curated entry point into [`examples/`](examples/). Open the one closest to your review first.
+
+- [Landing page passes production-ready](examples/basano-landing-page-pass.md) - a clean pass with every hold surfaced rather than assumed.
+- [Landing page fails on accessibility](examples/basano-landing-page-fail.md) - a high-severity fail leads, a low-severity one follows in order, two areas hold, and one area is not confidently scoped.
+- [Landing page fails on AI-search readiness](examples/basano-landing-page-seo.md) - an AEO and GEO verdict where the AI-crawler opt-out fails high, a missing llms.txt fails low, and the outcome question is marked not assessable.
+
+Basano is one of three engines RampStack runs against the same catalog: [Krine](https://github.com/rampstackco/krine) decides, [Tholo](https://github.com/rampstackco/tholo) builds, Basano proves. On the SEO thread, Tholo produces the audit-and-fix plan and Basano verifies the AEO and GEO result.
+
+---
+
+## Using the outputs
+
+Building against a Basano run? The verdict shape is documented in [`schemas/verdict.ts`](schemas/verdict.ts) as annotated types, carrying only what the published examples already show.
+
+---
+
 ## Artifacts and schemas
 
 - [`examples/`](examples/) holds worked examples of the verdicts Basano produces.
