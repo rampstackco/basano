@@ -14,7 +14,7 @@ This repository documents what Basano does and shows worked examples. The critic
 
 - **Scopes the review.** Turns a build and a standard into the areas worth checking: SEO, accessibility, code quality, performance, content, and others as the build calls for.
 - **Selects the verification skills.** For each area, it picks the relevant audit and review skills from the catalog, honoring each skill's own stated boundaries, so the review maps to skills that actually check that dimension.
-- **Reports a verdict.** It synthesizes findings into a structured result: what fails, ordered by severity with the reason it matters, and what holds. Not a raw issue dump, a prioritized verdict.
+- **Reports a verdict.** It synthesizes findings into a structured, prioritized result: what fails, ordered by severity with the reason it matters, and what holds.
 
 ---
 
@@ -24,7 +24,7 @@ A critic is only worth having if its judgment is trustworthy in both directions.
 
 - A failure is never softened into a pass or a minor note. If an area fails the standard, the verdict says so, with severity.
 - What cannot be assessed is marked as such, never quietly counted as a pass.
-- A verdict reads "passes" only when every assessed area holds. A passing verdict that carried a real failure is structurally impossible, it cannot be constructed, not merely discouraged.
+- A verdict reads "passes" only when every assessed area holds. A passing verdict that carried a real failure is structurally impossible: it cannot be constructed.
 
 That is the point of the tool: its "this holds" is trustworthy because its "this fails" is unsparing.
 
