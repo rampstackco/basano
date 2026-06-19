@@ -32,13 +32,6 @@ Basano reports; it does not fix. The fix is the human's call.
 
 ---
 
-## Worked examples
-
-- [Landing page passes production-ready](examples/basano-landing-page-pass.md) - a clean pass, with the holds surfaced rather than assumed.
-- [Landing page fails on accessibility](examples/basano-landing-page-fail.md) - a high-severity failure leads the verdict, a low-severity one follows in order, two areas hold, and one area is honestly marked as not confidently scoped.
-
----
-
 ## Getting started
 
 1. Read the framework above and the honest-verdict rule it sets out: failures are reported with severity, and what cannot be assessed is marked not assessable rather than counted as a pass.
@@ -63,13 +56,6 @@ Basano is one of three engines RampStack runs against the same catalog: [Krine](
 ## Using the outputs
 
 Building against a Basano run? The verdict shape is documented in [`schemas/verdict.ts`](schemas/verdict.ts) as annotated types, carrying only what the published examples already show.
-
----
-
-## Artifacts and schemas
-
-- [`examples/`](examples/) holds worked examples of the verdicts Basano produces.
-- [`schemas/`](schemas/) holds the shape of those public artifacts as annotated types, for building against the engine's outputs. The types carry only what the published artifacts already show.
 
 ---
 
