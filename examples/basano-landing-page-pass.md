@@ -39,7 +39,7 @@ Holds (5):
 
 - Scoped the production-ready standard into the area set: SEO, accessibility, code, performance, content. The scoping is deterministic and legible, not a hidden model call.
 - Selected verification skills per area. Each area's selection honors the catalog's own stated skill boundaries, so the review maps to skills that actually check that dimension.
-- Surfaced the holds, not just the absence of fails. A critic that only lists failures is as useless as one that only flatters; passes is trustworthy because the holds are visible too.
+- Surfaced the holds, stated outright instead of left implied by the absence of fails. The passes verdict is trustworthy because the holds are visible: the reader can see each dimension that was checked and cleared.
 - Reported the verdict and stopped. Basano does not fix; the fix is the human's call, or a follow-on build.
 
 ## What you do next
